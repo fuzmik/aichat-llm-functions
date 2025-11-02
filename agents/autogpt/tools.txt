@@ -6,7 +6,5 @@ fs_patch.sh
 fs_rm.sh
 fs_write.sh
 execute_py_code.py
-code_interpreter.js
 execute_js_code.js
-code_interpreter.py
 pylint_tool.py
