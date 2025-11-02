@@ -57,6 +57,11 @@ The project utilizes the `argc` tool for managing builds, dependencies, and exec
 *   **Declarations:** Tool metadata (description, arguments) is auto-generated from specially formatted comments within the tool scripts (e.g., `# @describe`, `# @option` for Bash; `/** @typedef`, `@property` for JS/Python).
 *   **Location:** Tool scripts are typically placed in the `./tools/` directory.
 *   **Execution:** Scripts like `./scripts/run-tool.sh`, `./scripts/run-tool.js`, and `./scripts/run-tool.py` are used to execute individual tools.
+*   **Specific Tools:**
+    *   `generate_python_code.py`: Generates Python code based on a natural language prompt.
+    *   `write_user_story.py`: Generates a user story based on a feature description, following a structured format.
+    *   `generate_summary_md.py`: Analyzes the project and generates a comprehensive `SUMMARY.md` file.
+    *   `cleanup_plan_file.py`: Removes a plan file for a specific feature from the `plans/` directory.
 
 ### Agent Development
 
